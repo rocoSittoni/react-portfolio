@@ -1,7 +1,7 @@
 import React from 'react'
 
 const NavigationDots = ({ active }) => {
-  // return (
+  return (
     <div className="app__navigation">
         {['home', 'about', 'work', 'skills', 'testimonials', 'contact'].map((item, index) => (
             <a 
@@ -12,7 +12,7 @@ const NavigationDots = ({ active }) => {
             />
         ))}
     </div>
-  // )
+  )
 }
 
 export default NavigationDots;

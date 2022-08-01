@@ -10,12 +10,12 @@ const App = () => {
             <Navbar />
             <Header />
             <About />
-            <Footer />
+            <Work />
             <Skills />
             <Testimonials />
-            <Work />
+            <Footer />
         </div>
     );
 }
 
-export default App
+export default App;
