@@ -11,6 +11,10 @@
     display: flex;
     flex-direction: row;
 
+    // @media screen and (max-width: 1200px) {
+    //     flex-direction: column;
+    // }
+
     @media screen and (max-width: 900px) {
         width: 100%;
         flex-direction: column;
@@ -20,7 +24,8 @@
 .app__skills-list {
     flex: 1;
     display: flex;
-    flex-wrap: flex-start;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: flex-start;
     align-items: flex-start;
     margin-right: 5rem;

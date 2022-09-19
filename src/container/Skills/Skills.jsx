@@ -1,6 +1,5 @@
 import React, { useState, useEffect } from "react";
 import { motion } from 'framer-motion';
-import ReacTooltip from 'react-tooltip';
 
 import { AppWrap, MotionWrap } from '../../wrapper';
 import { client, urlFor } from '../../client';
