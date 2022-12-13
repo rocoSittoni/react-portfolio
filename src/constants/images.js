@@ -34,7 +34,10 @@ import skype from '../assets/skype.png';
 import spotify from '../assets/spotify.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
-
+import angular from '../assets/angular.png';
+import rxjs from '../assets/rxjs.png';
+import nest from '../assets/nest.png'
+import docker from '../assets/docker.png';
 export default {
     about01,
     about02,
@@ -72,4 +75,8 @@ export default {
     spotify,
     typescript,
     vue,
+    angular,
+    rxjs,
+    nest,
+    docker
 }

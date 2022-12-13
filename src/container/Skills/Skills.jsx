@@ -68,17 +68,17 @@ const Skills = () => {
                                             <h4 className="bold-text">{work.name}</h4>
                                             <p className="p-text">{work.company}</p>
                                         </motion.div>
-                                        <ReactTooltip
-                                            id={work.name}
-                                            effect="solid"
-                                            arrowColor="#fff"
-                                            className="skills-tooltip"
-                                        >
-                                            {work.desc}
-                                        </ReactTooltip>
                                     </>
                                 ))}
                             </motion.div>
+                            <div>
+                            <p className="app__skills-exp-description">
+                            I worked in a human resources company developing an administrative dashboard for internal processes of the company, my role was the creation of new features based on customer needs, maintenance and refactoring of existing code, approval of pull requests, mentoring new members of the team, providing solutions to technical problems and troubleshooting for users.
+                            <br />
+                            &nbsp;In terms of technologies I worked mainly with Angular, NodeJs, NestJs, MySQL, Sequelize and MongoDB.    
+                            </p>
+                            </div>
+                            
                         </motion.div>
                     ))}
             </motion.div>
